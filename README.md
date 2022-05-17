@@ -14,6 +14,8 @@ The PoC does only work in combination with the Android App https://github.com/LF
 
 ![Alt text](UBNT_VPN_SEQUENCE_D.png?raw=true "D.")
 
+Release available under "releases".
+
 ## Usage
 1. Get discovery payload of your devices (e.g. by make use of client.js of https://github.com/bahamas10/unifi-proxy)
 2. Install app on Unifi CK Gen 2 appliance (activate SSH).
