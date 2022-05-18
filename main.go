@@ -82,7 +82,7 @@ func sendUnifiDiscoverResponse(address string) {
 
 	// Just for "reasons", the UDP packet is being sent 5 times
 
-	for i := 1; i < 5; i++ {
+	for i := 1; i < 6; i++ {
 		conn, _ := net.Dial("udp4", address)
 		conn.Write(discoveryPayload)
 
